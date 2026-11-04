@@ -10,6 +10,8 @@ def main():
     name = input("input nick: ").strip()
     if name:
         client.sendall((name + "\n").encode("utf-8"))
+    while True:
+        pass
 
 
 if __name__ == "__main__":
